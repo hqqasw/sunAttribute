@@ -7,10 +7,10 @@ Multi-label Classification for Sun Attribute Dataset
 4. Run test.py to test your trained model and get recall and precision
 
 Code Structure:
-train.py: a script for training
-test.py: a script for testing
-classifier/dataset: parse the SUN Attribute Database
-classifier/models: different base models, including reset and vgg
-classifier/utils: some basic codes, including metrics, data transformer, data pre-processer and so on
-classifier/trainer.py: a trainer for training
-calssidier/evaluator.py: an evaluator for evaluation and testing
+`train.py: a script for training
+`test.py: a script for testing
+`classifier/dataset: parse the SUN Attribute Database
+`classifier/models: different base models, including reset and vgg
+`classifier/utils: some basic codes, including metrics, data transformer, data pre-processer and so on
+`classifier/trainer.py: a trainer for training
+`calssidier/evaluator.py: an evaluator for evaluation and testing
