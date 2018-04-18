@@ -1,0 +1,5 @@
+data_process.py
+logs/*
+data/images/*
+*.pyc
+*/__pycache__/
