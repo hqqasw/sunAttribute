@@ -12,8 +12,14 @@ Code Structure:
 ------- 
 * `train.py`: a script for training
 * `test.py`: a script for testing
-* `classifier/dataset`: parse the SUN Attribute Database
+* `classifier/dataset`: parse the SUN Attribute Database (In most cases you do NOT need to make changes to it)
 * `classifier/models`: different base models, including reset and vgg
-* `classifier/utils`: some basic codes, including metrics, data transformer, data pre-processer and so on
-* `classifier/trainer.py`: a trainer for training
-* `calssidier/evaluator.py`: an evaluator for evaluation and testing
+* `classifier/utils`: some basic codes, including metrics, data transformer, data pre-processer and so on (In most cases you do NOT need to make changes to it)
+* `classifier/trainer.py`: a trainer for training (In most cases you do NOT need to make changes to it)
+* `calssidier/evaluator.py`: an evaluator for evaluation and testing (In most cases you do NOT need to make changes to it)
+
+Some Instructions:
+-------
+* `You can change parameters and settings by making modifications to train.py & test.py
+* `Try different models by chaging classifier/models.py
+* `Please provide me with results higher than my baseline model
